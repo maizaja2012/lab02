@@ -3,7 +3,7 @@
 <head>
 <title>Page Title</title>
 </head>
-<body>
- hello word
+<body bgcolor="red">
+ <h1> hello word </h1>
 </body>
 </html>
