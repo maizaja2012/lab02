@@ -2,60 +2,83 @@
 <html>
 <head>
 <title> lab02 </title>
+ <style type="text/css">
+  body {
+    color: #000000;
+    background-color: #FFFFFF
+	}
+	p.italic {
+	font-size : 28px;
+    font-style: italic;
+	}
+	p.oblique {
+	font-size : 18px;
+    font-style: oblique;
+    }
+	table {
+    border-collapse: collapse;
+    width: 80%;
+}
 
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+  </style>
 </head>
 <body>
-	<center><br><br>
-    <TABLE BORDER=1 BGCOLOR = #FFFFFF>
+	<center>
+	<p class="italic"> ตารางเรียน </p>
+    <table border="1">
 
 			<TR>
-				<TD> DATE TIME </TD>
-				<TD>8:00-9:00</TD>
-				<TD>9:00-10:00</TD>
-				<TD>10:00-11:00</TD>
-				<TD>11:00-12:00</TD>
-				<TD>12:00-13:00</TD>
-				<TD>13:00-14:00</TD>
-				<TD>14:00-15:00</TD>
-				<TD>15:00-16:00</TD>
-				<TD>16:00-17:00</TD>
-				<TD>17:00-18:00</TD>
-				<TD>18:00-19:00</TD>
-				<TD>19:00-20:00</TD>
+				<TH> DATE TIME </TH>
+				<TH>8:00-9:00</TH>
+				<TH>9:00-10:00</TH>
+				<TH>10:00-11:00</TH>
+				<TH>11:00-12:00</TH>
+				<TH>12:00-13:00</TH>
+				<TH>13:00-14:00</TH>
+				<TH>14:00-15:00</TH>
+				<TH>15:00-16:00</TH>
+				<TH>16:00-17:00</TH>
+				<TH>17:00-18:00</TH>
+				<TH>18:00-19:00</TH>
+				<TH>19:00-20:00</TH>
+				<TH>20:00-21:00</TH>
 			</TR>
 			<TR>
-				<TD> จันทร์ </TD>
+				<TH> จันทร์ </TH>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
-				<TD COLSPAN = 3 ALIGN = CENTER BGCOLOR = #87CEEB> 887130-54 </TD>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
 			</TR>
 			<TR>
-				<TD> อังคาร </TD>
-				<TD COLSPAN = 2 ALIGN = CENTER BGCOLOR = #87CEEB> 887250-54 (Lec) </TD>
-				<TD COLSPAN = 2 ALIGN = CENTER BGCOLOR = #87CEEB> 887250-54 (Lab) </TD>
+				<TH> อังคาร </TH>
+				<TD></TD>
+				<TD></TD>
+				<TD colspan="3">887230-54 </TD>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
-				<TD></TD>
-				<TD COLSPAN = 3 ALIGN = CENTER BGCOLOR = #87CEEB>  678101-54 </TD>
-				
-			</TR>
-			<TR>
-				<TD> พุธ </TD>
-				<TD></TD>
-				<TD></TD>
-				<TD></TD>
-				<TD></TD>
-				<TD></TD>
-				<TD COLSPAN = 3 ALIGN = CENTER BGCOLOR = #87CEEB>  887212-53 </TD>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
@@ -63,7 +86,8 @@
 				
 			</TR>
 			<TR>
-				<TD> พฤหัสบดี </TD>
+				<TH> พุธ </TH>
+				<TD colspan="2">887371-54</TD>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
@@ -73,22 +97,48 @@
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
-				<TD></TD>
-				<TD></TD>
-				<TD></TD>
+				<TD colspan="2">887371-54</TD>
+				
 			</TR>
 			<TR>
-				<TD> ศุกร์ </TD>
+				<TH> พฤหัสบดี </TH>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
 				<TD></TD>
-				<TD COLSPAN = 2 ALIGN = CENTER BGCOLOR = #87CEEB>   886210-54 (Lec) </TD>
-				<TD COLSPAN = 2 ALIGN = CENTER BGCOLOR = #87CEEB>   886210-54 (Lab) </TD>
 				<TD></TD>
 				<TD></TD>
-		
+				<TD></TD>
+				<TD></TD>
+				<TD colspan="2">886210-54</TD>
+				<TD colspan="2">886210-54</TD>
+			</TR>
+			<TR>
+				<TH> ศุกร์ </TH>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
+				<TD colspan="3">228202-54</TD>
+				<TD></TD>
+			</TR>
+				<TH> เสาร์ </TH>
+				<TD></TD>
+				<TD></TD>
+				<TD colspan="2">887260-54</TD>
+				<TD></TD>
+				<TD colspan="2">887260-54</TD>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
+				<TD></TD>
 				<TD></TD>
 			</TR>
 		</TABLE>
