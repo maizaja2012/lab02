@@ -57,7 +57,7 @@ li a:hover:not(.active) {
 }
 
 #home {
-    width: 46px;
-    height: 44px;
-    background: url(Homeicon.png) 0 0;
+    width: 36px;
+    height: 24px;
+    background: url("Home.png") 0 0;
 }
