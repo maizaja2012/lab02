@@ -10,7 +10,7 @@ body {
 	font-size : 18px;
     font-style: oblique;
     }
-/******************************************************/
+
   table {
     border-collapse: collapse;
     width: 80%;
@@ -27,7 +27,7 @@ th {
     background-color: #4CAF50;
     color: white;
 }
-/* **************************************** */
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -54,10 +54,4 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #4CAF50;
-}
-
-#home {
-    width: 22px;
-    height: 24px;
-    background: url("Home.png") 0 0;
 }
